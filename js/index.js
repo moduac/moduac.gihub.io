@@ -1,4 +1,4 @@
 window.addEventListener("load", () => {
     const searchPlaceholderElement = document.querySelector(".aa-DetachedSearchButtonPlaceholder")
-    searchPlaceholderElement.innerHTML = 'Пошук...'
+    searchPlaceholderElement.innerHTML = 'Search...'
 })

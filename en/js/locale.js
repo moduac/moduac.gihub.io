@@ -7,7 +7,7 @@ const updateLinks = (path) => {
     else {
         path = "/en" + path
     }
-    link.setAttribute('href', path)
+    if (link) link.setAttribute('href', path)
 }
 
 window.history.pushState = new Proxy(window.history.pushState, {

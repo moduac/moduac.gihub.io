@@ -3,7 +3,8 @@ const updateLinks = (path) => {
     const link = document.querySelector(lang === 'en-US' ? '.locale-ua' : '.locale-en')
     if (lang === 'en-US') {
         path = path.substring( 3 )
-    } else {
+    } 
+    else {
         path = "/en" + path
     }
     link.setAttribute('href', path)

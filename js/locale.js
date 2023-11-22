@@ -1,5 +1,5 @@
 const updateLinks = (path) => {
-    const lang = document.querySelector("html").getAttribute('lang')
+    const lang = document.querySelector("html").getAttribute('lang') || 'uk-UA'
     const link = document.querySelector(lang === 'en-US' ? '.locale-ua' : '.locale-en')
     if (lang === 'en-US') {
         path = path.substring( 3 )
